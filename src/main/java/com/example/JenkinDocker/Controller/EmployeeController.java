@@ -27,9 +27,10 @@ public class EmployeeController {
 	}
 	
 	@GetMapping("/login")
-	public void Login()
+	public String Login()
 	{
-		System.out.println("Welcome to Employee login page");
+		//System.out.println("Welcome to Employee login page");
+		return "Welcome to Employee login page";
 	}
 	
 	

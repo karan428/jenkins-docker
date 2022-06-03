@@ -44,7 +44,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+				<finalname>Spring-Mysql</finalname>
 				
+				</configuration>
 			</plugin>
 		</plugins>
 		<finalName>Jenkin-Docker</finalName>
